@@ -20,9 +20,7 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[fbConvSys();
-
-//just kidding around..:)]]></ST>
+      <ST><![CDATA[fbConvSys();]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
