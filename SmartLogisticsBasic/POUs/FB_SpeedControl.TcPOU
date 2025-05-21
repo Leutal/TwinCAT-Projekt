@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_SpeedControl" Id="{00448bd9-e5a5-4404-8981-797a91c7cc5e}" SpecialFunc="None">
+    <Declaration><![CDATA[// variable Geschwindigkeits Kontrolle
+FUNCTION_BLOCK FB_SpeedControl
+VAR_INPUT 
+    viw_Speed : WORD; // Eingabe Soll-Geschwindigkeit
+END_VAR
+VAR_OUTPUT 
+    vqx_VarSpeed : BOOL; // Enable Band Variable Geschwindigkeit
+    vqw_Speed : WORD; // Band Soll-Geschwindigkeit
+END_VAR
+VAR 
+    vsw_LastSpeed : WORD; // Soll-Geschwindigkeit von letztem Zyklus
+	vtd_CalcSpeed: DINT;
+	vtr_ScaleSpeed: REAL;
+	vtr_NormSpeed: REAL;
+END_VAR
+VAR CONSTANT
+	MAXNORM: INT := 27648;
+	MINNORM: INT := 0;
+	MAXSCALE: REAL := 100;
+	MINSCALE: REAL := 0;
+END_VAR
+
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[vqx_VarSpeed := TRUE;
+IF (viw_Speed <> vsw_LastSpeed) THEN
+    (*falls sich die Soll-Geschwindigkeit änderte*)
+    (*Geschwindigkeit von WORD-Bereich auf Analogwert-Max skalieren*)   
+	
+ 	vtd_CalcSpeed:= ABS(WORD_TO_DINT(viw_Speed)); //Wert in Absolutzahl speichern
+	
+	vtr_ScaleSpeed:= (MAXSCALE - MINSCALE)/ MAXNORM * DINT_TO_REAL(vtd_CalcSpeed) + MINSCALE;
+	vtr_NormSpeed:= (((vtr_ScaleSpeed - MINSCALE) / (MAXSCALE - MINSCALE)) * (MAXNORM - MINNORM)) + MINNORM;
+	vqw_Speed := INT_TO_WORD(REAL_TO_INT(vtr_NormSpeed));
+    
+	vsw_LastSpeed := viw_Speed; (*aktuelle Speed abspeichern für nächsten Zyklus*)
+END_IF;]]></ST>
+    </Implementation>
+    <LineIds Name="FB_SpeedControl">
+      <LineId Id="19" Count="0" />
+      <LineId Id="3" Count="2" />
+      <LineId Id="16" Count="0" />
+      <LineId Id="8" Count="0" />
+      <LineId Id="12" Count="0" />
+      <LineId Id="17" Count="0" />
+      <LineId Id="13" Count="1" />
+      <LineId Id="9" Count="0" />
+      <LineId Id="18" Count="0" />
+      <LineId Id="10" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

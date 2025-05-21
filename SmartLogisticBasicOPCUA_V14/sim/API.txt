@@ -1,0 +1,1 @@
+Analog2Integer#1	X	0.0

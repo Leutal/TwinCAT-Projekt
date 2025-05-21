@@ -1,0 +1,15348 @@
+﻿#VERSION 100
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qw_VarSpeedBlue
+INFO {
+TYPE=i_2099202
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qw_VarSpeedOrange
+INFO {
+TYPE=i_2099202
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qw_VarSpeedPurple
+INFO {
+TYPE=i_2099202
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qw_VarSpeedYellow
+INFO {
+TYPE=i_2099202
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_EnableVarSpeedBlue
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_EnableVarSpeedOrange
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_EnableVarSpeedPurple
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_EnableVarSpeedYellow
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_FullSpeedBlue
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_FullSpeedOrange
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_FullSpeedPurple
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_FullSpeedYellow
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_LightBlue
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_LightGreen
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_LightRed
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#1
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DIV#1
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#1
+SIGNAL=s_zDivisor
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_is_active
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_is_active
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_nDisplays.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_nDisplays.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_Setpoint
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_Setpoint
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_MAN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_MAN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_nLights.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_nLights.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qw_VarSpeedBlue.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedBlue.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qw_VarSpeedOrange.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedOrange.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qw_VarSpeedPurple.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedPurple.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qw_VarSpeedYellow.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qw_VarSpeedYellow.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_EnableVarSpeedBlue.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedBlue.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_EnableVarSpeedOrange.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedOrange.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_EnableVarSpeedPurple.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedPurple.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_EnableVarSpeedYellow.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_EnableVarSpeedYellow.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_FullSpeedBlue.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedBlue.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_HI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_HI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_Open
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftYellow
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#48
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorOrangeRechtsVonRechts#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#48
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#48
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightOrange
+ASSIGNEDTO_SOURCE=s_AND#48
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#48
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#13
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#48
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsOrangeVonLinks#1
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_FullSpeedOrange.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedOrange.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_FullSpeedPurple.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedPurple.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_LO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_LO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_T_Close
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_T_Close
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#19
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#21
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DIV#4
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_FullSpeedYellow.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_FullSpeedYellow.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorAcwBlue.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwBlue.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_LOLO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_LOLO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_HIHI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_HIHI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#1
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#1
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DIV#1
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#9
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueRechts
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#9
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DIV#1
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#8
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#8
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorAcwOrange.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwOrange.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorAcwPurple.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwPurple.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorAcwYellow.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwYellow.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_DWord2Byte#1
+SIGNAL=s_B2
+INFO {
+TYPE=i_4194315
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_1050626
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DWord2Byte#1
+ASSIGNEDTO_SIGNAL=s_B2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_DWord2Byte#1
+SIGNAL=s_B3
+INFO {
+TYPE=i_4194315
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_1050626
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DWord2Byte#1
+ASSIGNEDTO_SIGNAL=s_B3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_LightYellow
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorAcwBlue
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorAcwOrange
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorAcwPurple
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorAcwYellow
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorAcwYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorCwBlue
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorCwOrange
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorCwPurple
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorCwYellow
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_4
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperLeftBlue
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperLeftOrange
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperLeftPurble
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftPurble
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftPurble
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftPurble
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperLeftYellow
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperRightBlue
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperRightOrange
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperRightPurble
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightPurble
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightPurble
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightPurble
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperRightYellow
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_2099204
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorCwBlue.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwBlue.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorCwPurple.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwPurple.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorCwOrange.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwOrange.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_MotorCwYellow.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_MotorCwYellow.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_B
+INFO {
+TYPE=i_1049602
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_nLights
+ASSIGNEDTO_SOURCE=s_Byte2Bit#1
+ASSIGNEDTO_SIGNAL=s_B
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_nLights
+INFO {
+TYPE=i_2099202
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_nLights
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_nLights
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperLeftBlue.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftBlue.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperLeftOrange.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftOrange.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperLeftPurble.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftPurble.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperLeftYellow.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperLeftYellow.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperRightBlue.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightBlue.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_nDisplays
+INFO {
+TYPE=i_2099202
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_nDisplays
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+INFO {
+TYPE=i_2099202
+CONTEXT=i_3
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_nDisplays
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_nDisplays
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperRightOrange.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightOrange.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperRightPurble.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightPurble.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qx_StopperRightYellow.quality
+INFO {
+TYPE=i_2099202
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Qx_StopperRightYellow.quality
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_AND#40
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#2
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#40
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Iw_SliderValue
+INFO {
+TYPE=i_2098178
+CONTEXT=i_3
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Iw_SliderValue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+INFO {
+TYPE=i_2098178
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Iw_SliderValue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_Enable
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_Enable
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_Left
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_Left
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_LSensorBlue
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_3
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_LSensorBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_LSensorBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_LSensorOrange
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_3
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_LSensorOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_LSensorOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_LSensorPurple
+INFO {
+TYPE=i_2098180
+CONTEXT=i_3
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_LSensorPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_LSensorPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_LSensorYellow
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_3
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_LSensorYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_LSensorYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_ManAuto
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_ManAuto
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_NotAus
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_NotAus
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_Off
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_Off
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_On
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_On
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_PowerOn
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_PowerOn
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_Reset
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_Reset
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_Right
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_Right
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_RSensorBlue
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_3
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_RSensorBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_RSensorBlue
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_RSensorOrange
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_3
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_RSensorOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_RSensorOrange
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_RSensorPurple
+INFO {
+TYPE=i_2098180
+CONTEXT=i_3
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_RSensorPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_RSensorPurple
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Ix_RSensorYellow
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_3
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_RSensorYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_2098180
+CONTEXT=i_2
+CONNECTED=False
+HINT2=s_
+ASSIGNEDTO_SOURCE=s_OPC UA Server
+ASSIGNEDTO_SIGNAL=s_Ix_RSensorYellow
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_io\OPCUAServer1\gateway.gate
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_OUT7
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Byte2Bit#1
+ASSIGNEDTO_SIGNAL=s_OUT7
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_OPC UA Server
+SIGNAL=s_Qw_Display
+INFO {
+TYPE=i_4194315
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#2
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Compare#18
+CONNECTEDTO_SIGNAL=s_X1
+ASSIGNEDTO_SOURCE=s_SUB#2
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_QB64 und QB65
+SIGNAL=s_B1
+INFO {
+TYPE=i_1050626
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_QB64 und QB65
+ASSIGNEDTO_SIGNAL=s_B1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#2
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SUB#2
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_QB64 und QB65
+SIGNAL=s_W
+INFO {
+TYPE=i_1049602
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_nDisplays
+ASSIGNEDTO_SOURCE=s_QB64 und QB65
+ASSIGNEDTO_SIGNAL=s_W
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_QB64 und QB65
+SIGNAL=s_zInputFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_Analog2Integer#1
+SIGNAL=s_X
+INFO {
+TYPE=i_4194305
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Analog2Integer#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+INFO {
+TYPE=i_4194305
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Compare#9
+CONNECTEDTO_SIGNAL=s_X1
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Digitalanzeige#10
+CONNECTEDTO_SIGNAL=s_X
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Digitalanzeige#11
+CONNECTEDTO_SIGNAL=s_X
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Digitalanzeige#12
+CONNECTEDTO_SIGNAL=s_X
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Compare#5
+CONNECTEDTO_SIGNAL=s_X1
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Digitalanzeige#13
+CONNECTEDTO_SIGNAL=s_X
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Digitalanzeige#6
+CONNECTEDTO_SIGNAL=s_X
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Compare#13
+CONNECTEDTO_SIGNAL=s_X1
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Digitalanzeige#7
+CONNECTEDTO_SIGNAL=s_X
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Digitalanzeige#8
+CONNECTEDTO_SIGNAL=s_X
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Compare#1
+CONNECTEDTO_SIGNAL=s_X1
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=False
+OCCURER=s_proj\Logic\99_SmartLogisticVorlage.diag
+}
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Digitalanzeige#9
+CONNECTEDTO_SIGNAL=s_X
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+INFO {
+TYPE=i_3
+CONTEXT=i_5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#2
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Integer2Analog#2
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SUB#2
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_QB64 und QB65
+SIGNAL=s_B0
+INFO {
+TYPE=i_1050626
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_QB64 und QB65
+ASSIGNEDTO_SIGNAL=s_B0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#20
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#20
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#20
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Selection#13
+CONNECTEDTO_SIGNAL=s_SEL
+ASSIGNEDTO_SOURCE=s_Compare#20
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#20
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SUB#4
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#20
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Integer2Analog#1
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_SUB#1
+CONNECTEDTO_SIGNAL=s_X2
+ASSIGNEDTO_SOURCE=s_Integer2Analog#1
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Integer2Analog#2
+SIGNAL=s_X
+INFO {
+TYPE=i_1049602
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qw_VarSpeedOrange
+ASSIGNEDTO_SOURCE=s_Integer2Analog#2
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Integer2Analog#1
+SIGNAL=s_X
+INFO {
+TYPE=i_1049602
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qw_VarSpeedPurple
+ASSIGNEDTO_SOURCE=s_Integer2Analog#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#11
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SUB#2
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Selection#11
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#11
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#18
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_Selection#11
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#18
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Selection#11
+CONNECTEDTO_SIGNAL=s_SEL
+ASSIGNEDTO_SOURCE=s_Compare#18
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#18
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#18
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Integer2Analog#3
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_SUB#3
+CONNECTEDTO_SIGNAL=s_X2
+ASSIGNEDTO_SOURCE=s_Integer2Analog#3
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Integer2Analog#4
+SIGNAL=s_X
+INFO {
+TYPE=i_1049602
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qw_VarSpeedBlue
+ASSIGNEDTO_SOURCE=s_Integer2Analog#4
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Integer2Analog#3
+SIGNAL=s_X
+INFO {
+TYPE=i_1049602
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qw_VarSpeedYellow
+ASSIGNEDTO_SOURCE=s_Integer2Analog#3
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#3
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Integer2Analog#3
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SUB#3
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#3
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Compare#19
+CONNECTEDTO_SIGNAL=s_X1
+ASSIGNEDTO_SOURCE=s_SUB#3
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Integer2Analog#2
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_SUB#2
+CONNECTEDTO_SIGNAL=s_X2
+ASSIGNEDTO_SOURCE=s_Integer2Analog#2
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#13
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#20
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_Selection#13
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#12
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#19
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_Selection#12
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#19
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#19
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#19
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Selection#12
+CONNECTEDTO_SIGNAL=s_SEL
+ASSIGNEDTO_SOURCE=s_Compare#19
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#1
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SUB#1
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#1
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Compare#17
+CONNECTEDTO_SIGNAL=s_X1
+ASSIGNEDTO_SOURCE=s_SUB#1
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#1
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Integer2Analog#1
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SUB#1
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#3
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SUB#3
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#4
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Integer2Analog#4
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SUB#4
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#4
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Compare#20
+CONNECTEDTO_SIGNAL=s_X1
+ASSIGNEDTO_SOURCE=s_SUB#4
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Integer2Analog#4
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_SUB#4
+CONNECTEDTO_SIGNAL=s_X2
+ASSIGNEDTO_SOURCE=s_Integer2Analog#4
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#11
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#11
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#19
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SUB#3
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#19
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#11
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#11
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#17
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SUB#1
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#17
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#12
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#12
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#12
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#12
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_SUB#4
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SUB#4
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#17
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#17
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#17
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Selection#10
+CONNECTEDTO_SIGNAL=s_SEL
+ASSIGNEDTO_SOURCE=s_Compare#17
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#10
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#17
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_Selection#10
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#10
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SUB#1
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Selection#10
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#12
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SUB#3
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Selection#12
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#13
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SUB#4
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Selection#13
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#13
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#13
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#13
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#13
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_T_Close
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_T_Close
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_Open
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightBlue
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_LO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_LO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_MAN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_MAN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_HIHI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_HIHI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_zOpen
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_Setpoint
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_Setpoint
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_HI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_HI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_LOLO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_LOLO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_T_Open
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_T_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_zClose
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_T_Close
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_T_Close
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_Open
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftPurble
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_LO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_LO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_MAN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_MAN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_HIHI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_HIHI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_zOpen
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_Setpoint
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_Setpoint
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_HI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_HI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_LOLO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_LOLO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_T_Open
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueRechts
+ASSIGNEDTO_SIGNAL=s_T_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_zClose
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueRechts
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_T_Close
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_T_Close
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_Open
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightOrange
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_LO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_LO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_MAN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_MAN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_HIHI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_HIHI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_zOpen
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_Setpoint
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_Setpoint
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_HI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_HI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_LOLO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_LOLO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_T_Open
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_T_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_zClose
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_T_Close
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_T_Close
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_Open
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftBlue
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_LO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_LO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_MAN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_MAN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_HIHI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_HIHI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_zOpen
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_Setpoint
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_Setpoint
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_HI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_HI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperBlueLinks
+SIGNAL=s_LOLO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperBlueLinks
+ASSIGNEDTO_SIGNAL=s_LOLO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_T_Open
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeRechts
+ASSIGNEDTO_SIGNAL=s_T_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_zClose
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeRechts
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_T_Close
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_T_Close
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_Open
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightPurble
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_LO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_LO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_MAN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_MAN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_HIHI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_HIHI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_zOpen
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_Setpoint
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_Setpoint
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_HI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_HI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_LOLO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_LOLO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_T_Open
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletLinks
+ASSIGNEDTO_SIGNAL=s_T_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_zClose
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletLinks
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Word#1
+SIGNAL=s_W
+INFO {
+TYPE=i_4194315
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_1050626
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Byte2Word#1
+ASSIGNEDTO_SIGNAL=s_W
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Word#1
+SIGNAL=s_B0
+INFO {
+TYPE=i_1049602
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DWord2Byte#1
+CONNECTEDTO_SIGNAL=s_B0
+ASSIGNEDTO_SOURCE=s_Byte2Word#1
+ASSIGNEDTO_SIGNAL=s_B0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_OUT5
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Byte2Bit#1
+ASSIGNEDTO_SIGNAL=s_OUT5
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_OUT6
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Byte2Bit#1
+ASSIGNEDTO_SIGNAL=s_OUT6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_zOpen
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_DWord2Byte#1
+SIGNAL=s_B0
+INFO {
+TYPE=i_1050626
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Byte2Word#1
+CONNECTEDTO_SIGNAL=s_B0
+ASSIGNEDTO_SOURCE=s_DWord2Byte#1
+ASSIGNEDTO_SIGNAL=s_B0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#18
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SUB#2
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#18
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#10
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#10
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_T_Open
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperViolletRechts
+ASSIGNEDTO_SIGNAL=s_T_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_zClose
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperViolletRechts
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_T_Close
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_T_Close
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_Open
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightYellow
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_LO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_LO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_MAN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_MAN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_HIHI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_HIHI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_zOpen
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_Setpoint
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_Setpoint
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_HI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_HI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_LOLO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_LOLO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_T_Open
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowLinks
+ASSIGNEDTO_SIGNAL=s_T_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_zClose
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowLinks
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_T_Close
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_T_Close
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_Open
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftOrange
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_LO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_LO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_MAN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_MAN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_HIHI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_HIHI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_zOpen
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_Setpoint
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_Setpoint
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_HI
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_HI
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperOrangeLinks
+SIGNAL=s_LOLO
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperOrangeLinks
+ASSIGNEDTO_SIGNAL=s_LOLO
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_T_Open
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_StopperYellowRechts
+ASSIGNEDTO_SIGNAL=s_T_Open
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_zClose
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_StopperYellowRechts
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\02_SmartLogisticZylinder.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#23
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#1
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_Selection#1
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#1
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_T
+ASSIGNEDTO_SOURCE=s_Selection#1
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#38
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_AND#38
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#26
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueLinks
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#26
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#28
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#27
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#28
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#5
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#27
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_OR#5
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#6
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OR#6
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#5
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_MotorCwBlue
+ASSIGNEDTO_SOURCE=s_OR#5
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#6
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BlueRechts
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_OR#6
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#25
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#25
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#2
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#2
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#1
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueLinks
+CONNECTEDTO_SIGNAL=s_T
+ASSIGNEDTO_SOURCE=s_DIV#1
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#2
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#2
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#2
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Selection#1
+CONNECTEDTO_SIGNAL=s_X0
+ASSIGNEDTO_SOURCE=s_Selection#2
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorBlueRechtsVonRechts
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorBlueRechtsVonRechts
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#3
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#24
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_NOTc#3
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#1
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#42
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#1
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#24
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#43
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#3
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#43
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorBlueRechtsVonRechts
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorBlueRechtsVonRechts
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#1
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_EnableVarSpeedBlue
+ASSIGNEDTO_SOURCE=s_Selection#1
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#22
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueLinks
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#22
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#43
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorLinksBlueVonLinks
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#43
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#43
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftBlue
+ASSIGNEDTO_SOURCE=s_AND#43
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#22
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#26
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#22
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#42
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#1
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#42
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DIV#1
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonRechts
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksBlueVonRechts
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonRechts
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#42
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_SensorLinksBlueVonRechts
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#28
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#23
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BlueLinks
+SIGNAL=s_X
+INFO {
+TYPE=i_4195332
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BlueLinks
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BlueRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196356
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OR#6
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_BlueRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BlueRechts
+SIGNAL=s_X
+INFO {
+TYPE=i_4195332
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BlueRechts
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BlueLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196356
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OR#5
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_BlueLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#26
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#28
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorREchtsBlueVonLinks
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorREchtsBlueVonLinks
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorREchtsBlueVonLinks
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorREchtsBlueVonLinks
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorREchtsBlueVonLinks
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorREchtsBlueVonLinks
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorREchtsBlueVonLinks
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorBlueRechtsVonRechts
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#24
+CONNECTEDTO_SIGNAL=s_IN3
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorBlueRechtsVonRechts
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#41
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_SensorBlueRechtsVonRechts
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#22
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#22
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonLinks
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksBlueVonLinks
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#9
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#22
+CONNECTEDTO_SIGNAL=s_IN3
+ASSIGNEDTO_SOURCE=s_NOTc#9
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#37
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorREchtsBlueVonLinks
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#37
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#37
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#9
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#37
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#42
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorLinksBlueVonRechts
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#42
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#42
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightBlue
+ASSIGNEDTO_SOURCE=s_AND#42
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#4
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#4
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#30
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#4
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#30
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#37
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftBlue
+ASSIGNEDTO_SOURCE=s_AND#37
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#2
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_FullSpeedBlue
+ASSIGNEDTO_SOURCE=s_Selection#2
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorREchtsBlueVonLinks
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#37
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_SensorREchtsBlueVonLinks
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#2
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#2
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#8
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#41
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#8
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#6
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#26
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_OR#6
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#6
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_MotorAcwBlue
+ASSIGNEDTO_SOURCE=s_OR#6
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#30
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#3
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#30
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonLinks
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorLinksBlueVonLinks
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#1
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#1
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#25
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#29
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_Compare#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#1
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#1
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#8
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueLinks
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#8
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#38
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueRechts
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#38
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonLinks
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#43
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_SensorLinksBlueVonLinks
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonLinks
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksBlueVonLinks
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#28
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueLinks
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#28
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#5
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BlueLinks
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_OR#5
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#24
+SIGNAL=s_IN4
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#24
+ASSIGNEDTO_SIGNAL=s_IN4
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#8
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#22
+CONNECTEDTO_SIGNAL=s_IN4
+ASSIGNEDTO_SOURCE=s_NOTc#8
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#24
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#27
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#24
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#24
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#24
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#24
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueRechts
+CONNECTEDTO_SIGNAL=s_LLR
+ASSIGNEDTO_SOURCE=s_AND#24
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#3
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#43
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#3
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#24
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#3
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#24
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#41
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorBlueRechtsVonRechts
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#41
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#24
+CONNECTEDTO_SIGNAL=s_IN4
+ASSIGNEDTO_SOURCE=s_NOTc#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#2
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#2
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueRechts
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#38
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueRechts
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#41
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#8
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#41
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#41
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightBlue
+ASSIGNEDTO_SOURCE=s_AND#41
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#1
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#2
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Selection#1
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#9
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#37
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#9
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonLinks
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonRechts
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorLinksBlueVonRechts
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonRechts
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksBlueVonRechts
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksBlueVonRechts
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#29
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Ix_LSensorBlue
+ASSIGNEDTO_SOURCE=s_AND#29
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#29
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#2
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#29
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#2
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#2
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#3
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#3
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#5
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OR#5
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#28
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_LLR
+ASSIGNEDTO_SOURCE=s_AND#28
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#27
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_AND#27
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#9
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#9
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#23
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#23
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#23
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueRechts
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#23
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#22
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_OUT4
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Byte2Bit#1
+ASSIGNEDTO_SIGNAL=s_OUT4
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_OUT2
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Byte2Bit#1
+ASSIGNEDTO_SIGNAL=s_OUT2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_OUT3
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Byte2Bit#1
+ASSIGNEDTO_SIGNAL=s_OUT3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_DWord2Byte#1
+SIGNAL=s_B1
+INFO {
+TYPE=i_1050626
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Byte2Word#1
+CONNECTEDTO_SIGNAL=s_B1
+ASSIGNEDTO_SOURCE=s_DWord2Byte#1
+ASSIGNEDTO_SIGNAL=s_B1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_OUT1
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Byte2Bit#1
+ASSIGNEDTO_SIGNAL=s_OUT1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#3
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#30
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_Compare#3
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#4
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#4
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#3
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#3
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#38
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#6
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#38
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorBlueRechtsVonRechts
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorBlueRechtsVonRechts
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#30
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Ix_RSensorBlue
+ASSIGNEDTO_SOURCE=s_AND#30
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#27
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#24
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_AND#27
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#25
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#27
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#25
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#26
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_AND#26
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#22
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#1
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#29
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#29
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#26
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#6
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#26
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#25
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungBlueRechts
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#25
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#27
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#5
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#27
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#22
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#9
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#22
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#2
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#29
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_Compare#2
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#2
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandBlueHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#2
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungBlueLinks
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungBlueLinks
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#22
+SIGNAL=s_IN4
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#8
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#22
+ASSIGNEDTO_SIGNAL=s_IN4
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#23
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#26
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#23
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#4
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#30
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_Compare#4
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandBlueHorizontal
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_BandBlueHorizontal
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\03_SmartLogisticBandLogicBlue.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#5
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#31
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_Compare#5
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OrangeRechts
+SIGNAL=s_X
+INFO {
+TYPE=i_4195332
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OrangeRechts
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#6
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#31
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_Compare#6
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#5
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#5
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#31
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Ix_LSensorOrange
+ASSIGNEDTO_SOURCE=s_AND#31
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#5
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#5
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#10
+CONNECTEDTO_SIGNAL=s_IN3
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#6
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#6
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#3
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_Selection#3
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#3
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_T
+ASSIGNEDTO_SOURCE=s_Selection#3
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonRechts#1
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksOrangeVonRechts#1
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#2
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#3
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DIV#2
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#13
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_AND#13
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#1
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_MotorAcwOrange
+ASSIGNEDTO_SOURCE=s_OR#1
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#2
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DIV#2
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#12
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungOrangeLinks
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#12
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#1
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OrangeRechts
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_OR#1
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#12
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_OR#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#1
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OR#1
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#2
+SIGNAL=s_zDivisor
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DIV#2
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OrangeLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196356
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OR#2
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_OrangeLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OrangeRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196356
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OR#1
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_OrangeRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OrangeLinks
+SIGNAL=s_X
+INFO {
+TYPE=i_4195332
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OrangeLinks
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#12
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_AND#12
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#11
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungOrangeRechts
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#11
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#13
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#2
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#13
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#12
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#12
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#14
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#5
+CONNECTEDTO_SIGNAL=s_IN3
+ASSIGNEDTO_SOURCE=s_NOTc#14
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#9
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#14
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#50
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#14
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#11
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#13
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#11
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#10
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#13
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#10
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#10
+SIGNAL=s_IN4
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#6
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#10
+ASSIGNEDTO_SIGNAL=s_IN4
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#11
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#11
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#10
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungOrangeRechts
+CONNECTEDTO_SIGNAL=s_LLR
+ASSIGNEDTO_SOURCE=s_AND#10
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#11
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#10
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#10
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#12
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#12
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#32
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#7
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#32
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#50
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#14
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#50
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorOrangeRechtsVonRechts#1
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorOrangeRechtsVonRechts#1
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#32
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#8
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#32
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#31
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#5
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#31
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#2
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_MotorCwOrange
+ASSIGNEDTO_SOURCE=s_OR#2
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#6
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#6
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#9
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#9
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#9
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungOrangeRechts
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#9
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#10
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#7
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#10
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#9
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#12
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#9
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#5
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#5
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#5
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#14
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#5
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#5
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#5
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungOrangeLinks
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#5
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#5
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#12
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#5
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#5
+SIGNAL=s_IN4
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#13
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#5
+ASSIGNEDTO_SIGNAL=s_IN4
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorOrangeRechtsVonRechts#1
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorOrangeRechtsVonRechts#1
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorOrangeRechtsVonRechts#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#48
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_SensorOrangeRechtsVonRechts#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#4
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#4
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#4
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#4
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#4
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_FullSpeedOrange
+ASSIGNEDTO_SOURCE=s_Selection#4
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#2
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungOrangeRechts
+CONNECTEDTO_SIGNAL=s_T
+ASSIGNEDTO_SOURCE=s_DIV#2
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonLinks#1
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksOrangeVonLinks#1
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonLinks#1
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorLinksOrangeVonLinks#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonLinks#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#52
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_SensorLinksOrangeVonLinks#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonLinks#1
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksOrangeVonLinks#1
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#10
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#3
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#5
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonLinks#1
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorOrangeRechtsVonRechts#1
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorOrangeRechtsVonRechts#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#8
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#8
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#13
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#13
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorOrangeRechtsVonRechts#1
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#8
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#32
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_Compare#8
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsOrangeVonLinks#1
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorRechtsOrangeVonLinks#1
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsOrangeVonLinks#1
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorRechtsOrangeVonLinks#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsOrangeVonLinks#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#50
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_SensorRechtsOrangeVonLinks#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsOrangeVonLinks#1
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorRechtsOrangeVonLinks#1
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#52
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftOrange
+ASSIGNEDTO_SOURCE=s_AND#52
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#52
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorLinksOrangeVonLinks#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#52
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#7
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#52
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#7
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#7
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#10
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_NOTc#7
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#6
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#51
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#6
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#51
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorLinksOrangeVonRechts#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#51
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#51
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#6
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#51
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#2
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OrangeLinks
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_OR#2
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#2
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OR#2
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#12
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungOrangeLinks
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#12
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#32
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Ix_RSensorOrange
+ASSIGNEDTO_SOURCE=s_AND#32
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#13
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungOrangeRechts
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#13
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonRechts#1
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksOrangeVonRechts#1
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonRechts#1
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorLinksOrangeVonRechts#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#52
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#7
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#52
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonRechts#1
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#51
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightOrange
+ASSIGNEDTO_SOURCE=s_AND#51
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#50
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorRechtsOrangeVonLinks#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#50
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#50
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftOrange
+ASSIGNEDTO_SOURCE=s_AND#50
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#7
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#7
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#7
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#32
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_Compare#7
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#8
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#8
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeRechts
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#4
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Selection#3
+CONNECTEDTO_SIGNAL=s_X0
+ASSIGNEDTO_SOURCE=s_Selection#4
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#7
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#7
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#2
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#13
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_OR#2
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#31
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#6
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#31
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#14
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_LLR
+ASSIGNEDTO_SOURCE=s_AND#14
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#13
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#10
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_AND#13
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#14
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#13
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#14
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#6
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#10
+CONNECTEDTO_SIGNAL=s_IN4
+ASSIGNEDTO_SOURCE=s_NOTc#6
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#14
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungOrangeLinks
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#14
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#13
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#48
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#13
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#13
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#5
+CONNECTEDTO_SIGNAL=s_IN4
+ASSIGNEDTO_SOURCE=s_NOTc#13
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#12
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#14
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeLinks
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DIV#2
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DrehbewegungOrangeLinks
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#3
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#4
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Selection#3
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#9
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandOrangeHorizontal
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#14
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_BandOrangeHorizontal
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungOrangeRechts
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#4
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#4
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#3
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_EnableVarSpeedOrange
+ASSIGNEDTO_SOURCE=s_Selection#3
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksOrangeVonRechts#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#51
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_SensorLinksOrangeVonRechts#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#4
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandOrangeHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#4
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\04_SmartLogisticBandLogicOrange.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#6
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_T
+ASSIGNEDTO_SOURCE=s_Selection#6
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#3
+SIGNAL=s_zDivisor
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#47
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#5
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#47
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#3
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DIV#3
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#8
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#3
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_AND#8
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#6
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#6
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#3
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteRechts
+CONNECTEDTO_SIGNAL=s_T
+ASSIGNEDTO_SOURCE=s_DIV#3
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#6
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#8
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#6
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#7
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteLinks
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#7
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#8
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_AND#8
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#4
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#8
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#4
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#6
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteRechts
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#6
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#7
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#7
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#3
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#6
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DIV#3
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#7
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_AND#7
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#4
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#46
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#4
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#4
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#3
+CONNECTEDTO_SIGNAL=s_IN4
+ASSIGNEDTO_SOURCE=s_NOTc#4
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#4
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_LLR
+ASSIGNEDTO_SOURCE=s_AND#4
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#3
+SIGNAL=s_IN4
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#4
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#3
+ASSIGNEDTO_SIGNAL=s_IN4
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#8
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#3
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#8
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#3
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OR#3
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_VioletteLinks
+SIGNAL=s_X
+INFO {
+TYPE=i_4195332
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_VioletteLinks
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#12
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#12
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#4
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteLinks
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#4
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_VioletteLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196356
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OR#3
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_VioletteLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#11
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#11
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#12
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#12
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#11
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#34
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_Compare#11
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#3
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_VioletteLinks
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_OR#3
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorViollerRechtsVonRechts
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#44
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_SensorViollerRechtsVonRechts
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorViollerRechtsVonRechts
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#4
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#2
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#2
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DIV#3
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#34
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#11
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#34
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#11
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#11
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonLinks
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonLinks
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#47
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonLinks
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonLinks
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#6
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_EnableVarSpeedPurple
+ASSIGNEDTO_SOURCE=s_Selection#6
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#6
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#7
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Selection#6
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#46
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonRechts
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonRechts
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_VioletteRechts
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_OR
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#3
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#8
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_OR#3
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#3
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_MotorCwPurple
+ASSIGNEDTO_SOURCE=s_OR#3
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#11
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#45
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#11
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorRechtsViolletVonLinks
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#11
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#1
+CONNECTEDTO_SIGNAL=s_IN3
+ASSIGNEDTO_SOURCE=s_NOTc#11
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorViollerRechtsVonRechts
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#7
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#7
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#45
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_SensorRechtsViolletVonLinks
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorRechtsViolletVonLinks
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorRechtsViolletVonLinks
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#10
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#33
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_Compare#10
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#10
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#10
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#10
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#10
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#7
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Selection#6
+CONNECTEDTO_SIGNAL=s_X0
+ASSIGNEDTO_SOURCE=s_Selection#7
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#7
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_FullSpeedPurple
+ASSIGNEDTO_SOURCE=s_Selection#7
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#7
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#7
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#3
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#6
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_BandVioletteHorizontal
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_MotorAcwPurple
+ASSIGNEDTO_SOURCE=s_OR
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OR
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#9
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#9
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#9
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#33
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_Compare#9
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DIV#3
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#10
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#44
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#10
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#10
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#1
+CONNECTEDTO_SIGNAL=s_IN4
+ASSIGNEDTO_SOURCE=s_NOTc#10
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#4
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#3
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#3
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#3
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteRechts
+CONNECTEDTO_SIGNAL=s_LLR
+ASSIGNEDTO_SOURCE=s_AND#3
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#1
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#11
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#1
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#2
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteRechts
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#2
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#2
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#2
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#3
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#8
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#3
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#3
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#5
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#3
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#2
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#7
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#2
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#7
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#1
+SIGNAL=s_IN4
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#10
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#1
+ASSIGNEDTO_SIGNAL=s_IN4
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#46
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#4
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#46
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#33
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Ix_LSensorPurple
+ASSIGNEDTO_SOURCE=s_AND#33
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#46
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorLinksViolletVonRechts
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#46
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#33
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#10
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#33
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#33
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#9
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#33
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#34
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#12
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#34
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#12
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#34
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_Compare#12
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#1
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#7
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#1
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#1
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteLinks
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#1
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#34
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Ix_RSensorPurple
+ASSIGNEDTO_SOURCE=s_AND#34
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#10
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteLinks
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#10
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#11
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#11
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#45
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#11
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#45
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#46
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightPurble
+ASSIGNEDTO_SOURCE=s_AND#46
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#45
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorRechtsViolletVonLinks
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#45
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#45
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftPurble
+ASSIGNEDTO_SOURCE=s_AND#45
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#47
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftPurble
+ASSIGNEDTO_SOURCE=s_AND#47
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#47
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorLinksViolletVonLinks
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#47
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#5
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#47
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#5
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#5
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#3
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_NOTc#5
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#39
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_AND#39
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#11
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteRechts
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#11
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#10
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#10
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#39
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#3
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#39
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandVioletteHorizontal
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#39
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungVioletteLinks
+CONNECTEDTO_SIGNAL=s_LLR
+ASSIGNEDTO_SOURCE=s_AND#39
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#6
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_Selection#6
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#6
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#9
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#9
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_VioletteRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196356
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OR
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_VioletteRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#3
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#3
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonRechts
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#3
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#3
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandVioletteHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonRechts
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#1
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteLinks
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#39
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteLinks
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#7
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_OR
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungVioletteRechts
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#3
+CONNECTEDTO_SIGNAL=s_IN3
+ASSIGNEDTO_SOURCE=s_DrehbewegungVioletteRechts
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_VioletteRechts
+SIGNAL=s_X
+INFO {
+TYPE=i_4195332
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_VioletteRechts
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#44
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorViollerRechtsVonRechts
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#44
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#44
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightPurble
+ASSIGNEDTO_SOURCE=s_AND#44
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#44
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#10
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#44
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\05_SmartLogisticBandLogicViollet.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#8
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#13
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#35
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_Compare#13
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#17
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#14
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#35
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_Compare#14
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#13
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#13
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#35
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Ix_LSensorYellow
+ASSIGNEDTO_SOURCE=s_AND#35
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#13
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#13
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#15
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#14
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#14
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#8
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_T
+ASSIGNEDTO_SOURCE=s_Selection#8
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#4
+SIGNAL=s_zDivisor
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#56
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#18
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#56
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#4
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DIV#4
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#20
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_AND#20
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#8
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OR#8
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#4
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungYellowRechts
+CONNECTEDTO_SIGNAL=s_T
+ASSIGNEDTO_SOURCE=s_DIV#4
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#19
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungYellowLinks
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#19
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#7
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#20
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_OR#7
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_YellowRechts
+SIGNAL=s_X
+INFO {
+TYPE=i_4195332
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_YellowRechts
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#8
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_YellowRechts
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_OR#8
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#7
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_MotorCwYellow
+ASSIGNEDTO_SOURCE=s_OR#7
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#17
+CONNECTEDTO_SIGNAL=s_IN3
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DIV#4
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#8
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DIV#4
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#19
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_AND#19
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#18
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungYellowRechts
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#18
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#20
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#7
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#20
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#19
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#8
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#19
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#16
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#15
+CONNECTEDTO_SIGNAL=s_IN3
+ASSIGNEDTO_SOURCE=s_NOTc#16
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#16
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#54
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#16
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#18
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#20
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#18
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#17
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#20
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#17
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#17
+SIGNAL=s_IN4
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#17
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#17
+ASSIGNEDTO_SIGNAL=s_IN4
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#18
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#18
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#17
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungYellowRechts
+CONNECTEDTO_SIGNAL=s_LLR
+ASSIGNEDTO_SOURCE=s_AND#17
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#17
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#17
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#16
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#16
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#16
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungYellowRechts
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#16
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#17
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#18
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#17
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#16
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#19
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#16
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#15
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_UP
+ASSIGNEDTO_SOURCE=s_AND#15
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#15
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#16
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#15
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#15
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#15
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungYellowLinks
+CONNECTEDTO_SIGNAL=s_ULR
+ASSIGNEDTO_SOURCE=s_AND#15
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#15
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#19
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#15
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#15
+SIGNAL=s_IN4
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#15
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#15
+ASSIGNEDTO_SIGNAL=s_IN4
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts#1
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorViollerRechtsVonRechts#1
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#53
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_SensorViollerRechtsVonRechts#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks#1
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts#1
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorViollerRechtsVonRechts#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#16
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#16
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#7
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#7
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts#1
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#16
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#36
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_Compare#16
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#6
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungYellowLinks
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#6
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#36
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Ix_RSensorYellow
+ASSIGNEDTO_SOURCE=s_AND#36
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#8
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_EnableVarSpeedYellow
+ASSIGNEDTO_SOURCE=s_Selection#8
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#8
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#9
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Selection#8
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#5
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#5
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#5
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#5
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks#1
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonLinks#1
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks#1
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonLinks#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#56
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonLinks#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonLinks#1
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonLinks#1
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_MANUAL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_MANUAL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_SW_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_SW_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_ULR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#16
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_ULR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_LLR
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#21
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_LLR
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_BandYellowHorizontal
+SIGNAL=s_SW_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_BandYellowHorizontal
+ASSIGNEDTO_SIGNAL=s_SW_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#7
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DrehbewegungYellowRechts
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#7
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#6
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#6
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#36
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#15
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#36
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_zLimitParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_zTimeParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_z
+INFO {
+TYPE=i_1060865
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_DOWN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#18
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_DOWN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_T
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DIV#4
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_T
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_UP
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#16
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_UP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorViollerRechtsVonRechts#1
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorViollerRechtsVonRechts#1
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#36
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#16
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#36
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#9
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#9
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#54
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_SensorRechtsViolletVonLinks#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks#1
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorRechtsViolletVonLinks#1
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#15
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#53
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#15
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#15
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#15
+CONNECTEDTO_SIGNAL=s_IN4
+ASSIGNEDTO_SOURCE=s_NOTc#15
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#17
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#17
+CONNECTEDTO_SIGNAL=s_IN4
+ASSIGNEDTO_SOURCE=s_NOTc#17
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_zInputFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#55
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#17
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#55
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#17
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#55
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#17
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#7
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_YellowLinks
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_OR#7
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts#1
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts#1
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonRechts#1
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts#1
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonRechts#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts#1
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonRechts#1
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#9
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_Selection#8
+CONNECTEDTO_SIGNAL=s_X0
+ASSIGNEDTO_SOURCE=s_Selection#9
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#9
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_FullSpeedYellow
+ASSIGNEDTO_SOURCE=s_Selection#9
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#9
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#9
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#55
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorLinksViolletVonRechts#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#55
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#21
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#20
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#21
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#21
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_LLR
+ASSIGNEDTO_SOURCE=s_AND#21
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#21
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_DrehbewegungYellowLinks
+CONNECTEDTO_SIGNAL=s_DOWN
+ASSIGNEDTO_SOURCE=s_AND#21
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#20
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#17
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_AND#20
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#56
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftYellow
+ASSIGNEDTO_SOURCE=s_AND#56
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#56
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorLinksViolletVonLinks#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#56
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#18
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#56
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#18
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#18
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#17
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_NOTc#18
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#15
+SIGNAL=s_X2
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Compare#15
+ASSIGNEDTO_SIGNAL=s_X2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#15
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#36
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_Compare#15
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#16
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#16
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#15
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#15
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#8
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#19
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_OR#8
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#35
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#14
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#35
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_YellowRechts
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196356
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OR#8
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_YellowRechts
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_YellowLinks
+SIGNAL=s_X
+INFO {
+TYPE=i_4195332
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_YellowLinks
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_YellowLinks
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196356
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OR#7
+CONNECTEDTO_SIGNAL=s_IN1
+ASSIGNEDTO_SOURCE=s_YellowLinks
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#8
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_Selection#8
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#35
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Compare#13
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#35
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#8
+SIGNAL=s_IN3
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_MotorAcwYellow
+ASSIGNEDTO_SOURCE=s_OR#8
+ASSIGNEDTO_SIGNAL=s_IN3
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Compare#14
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Compare#14
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#55
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightYellow
+ASSIGNEDTO_SOURCE=s_AND#55
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#54
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperLeftYellow
+ASSIGNEDTO_SOURCE=s_AND#54
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#54
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#16
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#54
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#7
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_OR#7
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#54
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorRechtsViolletVonLinks#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#54
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks#1
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_SensorRechtsViolletVonLinks#1
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks#1
+SIGNAL=s_X
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_BandYellowHorizontal
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_SensorRechtsViolletVonLinks#1
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#53
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_SensorViollerRechtsVonRechts#1
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#53
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#53
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Qx_StopperRightYellow
+ASSIGNEDTO_SOURCE=s_AND#53
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#53
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#15
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#53
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorRechtsViolletVonLinks#1
+SIGNAL=s_zParamFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_SET
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_SET
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowRechts
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowRechts
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_UL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_UL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_LL
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_LL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_DrehbewegungYellowLinks
+SIGNAL=s_SP
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_DrehbewegungYellowLinks
+ASSIGNEDTO_SIGNAL=s_SP
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_SensorLinksViolletVonRechts#1
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#55
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_SensorLinksViolletVonRechts#1
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\06_SmartLogisticBandLogicYellow.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#14
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196353
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#14
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Binäranzeige#10
+SIGNAL=s_X
+INFO {
+TYPE=i_4195332
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OR#12
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_Binäranzeige#10
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Binäranzeige#10
+SIGNAL=s_Y
+INFO {
+TYPE=i_4196356
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Binäranzeige#10
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#12
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#49
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#12
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#12
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#49
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_NOTc#12
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#5
+SIGNAL=s_SEL
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#49
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_Selection#5
+ASSIGNEDTO_SIGNAL=s_SEL
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Analog2Integer#1
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050626
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_Iw_SliderValue
+ASSIGNEDTO_SOURCE=s_Analog2Integer#1
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#5
+SIGNAL=s_X0
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#5
+ASSIGNEDTO_SIGNAL=s_X0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#5
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#5
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#5
+SIGNAL=s_Y
+INFO {
+TYPE=i_1050625
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#5
+ASSIGNEDTO_SIGNAL=s_Y
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_ORAllRechts
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_ORAllRechts
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_ORAllRechts
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_ORAllRechts
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#12
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#40
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_OR#12
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#12
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#49
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_OR#12
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_OR#12
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_OR#12
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#49
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_NOTc#12
+CONNECTEDTO_SIGNAL=s_IN
+ASSIGNEDTO_SOURCE=s_AND#49
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_ORAllRechts
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_ORAllRechts
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#2
+SIGNAL=s_IN
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_AND#40
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_NOTc#2
+ASSIGNEDTO_SIGNAL=s_IN
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#40
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_AND#40
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#40
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#2
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#40
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Selection#10
+SIGNAL=s_X1
+INFO {
+TYPE=i_1049601
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Selection#10
+ASSIGNEDTO_SIGNAL=s_X1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\01_SmartLogisticAnalog.diag
+}
+}
+SIGNAL {
+SOURCE=s_NOTc#2
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+CONNECTEDTO_SOURCE=s_AND#40
+CONNECTEDTO_SIGNAL=s_IN2
+ASSIGNEDTO_SOURCE=s_NOTc#2
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#49
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+ASSIGNEDTO_SOURCE=s_AND#49
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Digitalanzeige#14
+SIGNAL=s_X
+INFO {
+TYPE=i_4195329
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_Selection#5
+CONNECTEDTO_SIGNAL=s_Y
+ASSIGNEDTO_SOURCE=s_Digitalanzeige#14
+ASSIGNEDTO_SIGNAL=s_X
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_ORAllLinks
+SIGNAL=s_OUT
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_ORAllLinks
+ASSIGNEDTO_SIGNAL=s_OUT
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_AND#49
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_NOTc#12
+CONNECTEDTO_SIGNAL=s_OUT
+ASSIGNEDTO_SOURCE=s_AND#49
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_ORAllLinks
+SIGNAL=s_IN1
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_ORAllLinks
+ASSIGNEDTO_SIGNAL=s_IN1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_ORAllLinks
+SIGNAL=s_IN2
+INFO {
+TYPE=i_1049604
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_ORAllLinks
+ASSIGNEDTO_SIGNAL=s_IN2
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\07_SmartLogisticKoordination.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Word#1
+SIGNAL=s_B1
+INFO {
+TYPE=i_1049602
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_DWord2Byte#1
+CONNECTEDTO_SIGNAL=s_B1
+ASSIGNEDTO_SOURCE=s_Byte2Word#1
+ASSIGNEDTO_SIGNAL=s_B1
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Word#1
+SIGNAL=s_zInputFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_Byte2Bit#1
+SIGNAL=s_OUT0
+INFO {
+TYPE=i_4194308
+CONTEXT=i_6
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\00_SmartLogisticAnlage.diag
+}
+INFO {
+TYPE=i_1050628
+CONTEXT=i_1
+CONNECTED=False
+ASSIGNEDTO_SOURCE=s_Byte2Bit#1
+ASSIGNEDTO_SIGNAL=s_OUT0
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_DWord2Byte#1
+SIGNAL=s_DW
+INFO {
+TYPE=i_1049602
+CONTEXT=i_1
+CONNECTED=True
+CONNECTEDTO_SOURCE=s_OPC UA Server
+CONNECTEDTO_SIGNAL=s_nDisplays
+ASSIGNEDTO_SOURCE=s_DWord2Byte#1
+ASSIGNEDTO_SIGNAL=s_DW
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}
+SIGNAL {
+SOURCE=s_DWord2Byte#1
+SIGNAL=s_zInputFault
+INFO {
+TYPE=i_1060868
+CONTEXT=i_1
+CONNECTED=False
+COMMENT=s_
+ACTIVATED=True
+OCCURER=s_proj\Logic\00_SmartLogistics30SignalLimit.diag
+}
+}

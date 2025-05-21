@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_MyUpCounter" Id="{d1d3bc10-29a6-4b26-aed3-b76dcff5333b}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_MyUpCounter		//Rundenzähler Linkslauf
+VAR_INPUT
+	CU: BOOL;						//Count Up Signal
+END_VAR
+VAR_OUTPUT
+	CV: INT;						//Counter Value
+END_VAR
+VAR
+END_VAR
+VAR_STAT
+	vsi_Counter: INT;				//Speicher für den aktuellen Zählerstand 
+	vsx_LastCU: BOOL;				//Zwischenspeicher letzter CU-Zustand
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF vsx_LastCU=FALSE AND CU=TRUE THEN
+vsi_Counter:= vsi_Counter +1;
+END_IF;
+CV:= vsi_Counter;
+vsx_LastCU:= CU;
+]]></ST>
+    </Implementation>
+    <LineIds Name="FB_MyUpCounter">
+      <LineId Id="1" Count="5" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

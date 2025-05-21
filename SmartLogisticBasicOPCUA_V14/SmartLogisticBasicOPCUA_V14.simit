@@ -1,0 +1,37 @@
+﻿<!-- Simit Project Definition, Assembly=Siemens.Simit.UI, Version=1103.0.1901.1 -->
+<Project
+    LastModified="2025-05-10T11:26:17.2773191+02:00"
+    IsReadOnly="False"
+    OperatingMode="Async"
+    Author=""
+    Comment=""
+    Version="11030000"
+    DCSPlusServer=""
+    DCSPlusProject=""
+    DCSPlusSession=""
+    ProjectVersion="-745169616875"
+    EntitiesMask="1b13b5be17f4e9aca76d3ad5581068cb319e170df09d51ff4ebf90b656f3fde5"
+    Date="9261"
+    TechScale="SCALE_1_1"
+    Cycle1="50"
+    Cycle2="10"
+    Cycle3="200"
+    Cycle4="400"
+    Cycle5="800"
+    Cycle6="1600"
+    Cycle7="3200"
+    Cycle8="6400"
+    PMultiStepCount="10"
+    SolverMask="0"
+    DistributionMode="SIMIT DEMO V11.03.00.00"
+    IsBacktrackingActive="False"
+    BacktrackingInterval="30"
+    MaxNumberOfBacktracks="10" xmlns="clr-namespace:Siemens.Simit.UI.Data;assembly=Siemens.Simit.UI" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <Project.Libraries>
+        <assembly:Array
+            Type="s:String">
+            <s:String>64000</s:String>
+            <s:String>0</s:String>
+        </assembly:Array>
+    </Project.Libraries>
+</Project>
