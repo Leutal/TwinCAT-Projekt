@@ -10,7 +10,6 @@ VAR
     vsFB_ConvYellow : FB_Conveyor;
     vsFB_ConvBlue : FB_Conveyor;
 	vsFB_CounterR: CTU := (PV:=0);
-	vsFB_CounterL: CTU := (PV:=0);
 	FB_MyUpCounterL: FB_MyUpCounter;
 END_VAR
 VAR_TEMP
@@ -219,61 +218,5 @@ GVL_SimitSp.Qb_74 := INT_TO_BYTE(vti_CountValueL);
 	
 ]]></ST>
     </Implementation>
-    <LineIds Name="FB_ConvSys">
-      <LineId Id="317" Count="1" />
-      <LineId Id="321" Count="0" />
-      <LineId Id="320" Count="0" />
-      <LineId Id="160" Count="1" />
-      <LineId Id="289" Count="1" />
-      <LineId Id="303" Count="1" />
-      <LineId Id="307" Count="1" />
-      <LineId Id="306" Count="0" />
-      <LineId Id="310" Count="1" />
-      <LineId Id="309" Count="0" />
-      <LineId Id="313" Count="1" />
-      <LineId Id="312" Count="0" />
-      <LineId Id="315" Count="1" />
-      <LineId Id="305" Count="0" />
-      <LineId Id="163" Count="0" />
-      <LineId Id="165" Count="10" />
-      <LineId Id="177" Count="0" />
-      <LineId Id="198" Count="0" />
-      <LineId Id="176" Count="0" />
-      <LineId Id="179" Count="1" />
-      <LineId Id="184" Count="0" />
-      <LineId Id="186" Count="0" />
-      <LineId Id="188" Count="9" />
-      <LineId Id="199" Count="0" />
-      <LineId Id="201" Count="4" />
-      <LineId Id="207" Count="0" />
-      <LineId Id="206" Count="0" />
-      <LineId Id="209" Count="1" />
-      <LineId Id="208" Count="0" />
-      <LineId Id="236" Count="1" />
-      <LineId Id="212" Count="1" />
-      <LineId Id="215" Count="1" />
-      <LineId Id="218" Count="0" />
-      <LineId Id="217" Count="0" />
-      <LineId Id="223" Count="7" />
-      <LineId Id="234" Count="1" />
-      <LineId Id="244" Count="1" />
-      <LineId Id="238" Count="5" />
-      <LineId Id="246" Count="0" />
-      <LineId Id="249" Count="0" />
-      <LineId Id="251" Count="5" />
-      <LineId Id="258" Count="1" />
-      <LineId Id="267" Count="1" />
-      <LineId Id="260" Count="5" />
-      <LineId Id="269" Count="7" />
-      <LineId Id="283" Count="2" />
-      <LineId Id="282" Count="0" />
-      <LineId Id="286" Count="2" />
-      <LineId Id="247" Count="0" />
-      <LineId Id="182" Count="1" />
-      <LineId Id="164" Count="0" />
-      <LineId Id="162" Count="0" />
-      <LineId Id="89" Count="69" />
-      <LineId Id="2" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
