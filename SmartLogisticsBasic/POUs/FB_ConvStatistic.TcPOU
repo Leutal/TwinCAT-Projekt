@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_ConvStatistic" Id="{43e53574-7e89-46d1-877e-622c34f44f91}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_ConvStatistic				// Speicher der letzten 10 Rundenzeiten
+VAR_INPUT
+	vit_LapTime: TIME;						// Input letzter Rundenzeit
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+	vsi_InPos: INT := 1;					// Zuweisung in welchem Arraybereich die nächste Zeit gespeichert werden soll
+END_VAR
+VAR_STAT
+	vsat_Laps: ARRAY[1..10] OF TIME;		// Deklaration von 10 Speicherplätzen
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[vsat_Laps[vsi_InPos] := vit_LapTime;		
+IF vsi_InPos >= 10 THEN						//falls Array voll, ältester Eintrag überschreiben
+	vsi_InPos := 1;							//
+ELSE
+	vsi_InPos := vsi_InPos +1;				// ansonsten Array 1 hochzählen
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

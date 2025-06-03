@@ -35,6 +35,9 @@
     <Compile Include="POUs\FB_Conveyor.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\FB_ConvStatistic.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\FB_ConvSys.TcPOU">
       <SubType>Code</SubType>
     </Compile>
@@ -61,6 +64,202 @@
     <Folder Include="POUs" />
   </ItemGroup>
   <ItemGroup>
+    <PlaceholderReference Include="Tc2_BA">
+      <DefaultResolution>Tc2_BA, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_BA</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_BABasic">
+      <DefaultResolution>Tc2_BABasic, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_BABasic</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_BACnetRev12">
+      <DefaultResolution>Tc2_BACnetRev12, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_BACnetRev12</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_CncBase">
+      <DefaultResolution>Tc2_CncBase, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_CncBase</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_CncHli">
+      <DefaultResolution>Tc2_CncHli, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_CncHli</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_CncPlcopenP1">
+      <DefaultResolution>Tc2_CncPlcopenP1, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_CncPlcopenP1</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_CncPlcopenP4">
+      <DefaultResolution>Tc2_CncPlcopenP4, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_CncPlcopenP4</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_ControllerToolbox">
+      <DefaultResolution>Tc2_ControllerToolbox, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_ControllerToolbox</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_Coupler">
+      <DefaultResolution>Tc2_Coupler, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_Coupler</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_DALI">
+      <DefaultResolution>Tc2_DALI, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_DALI</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_Database">
+      <DefaultResolution>Tc2_Database, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_Database</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_DataExchange">
+      <DefaultResolution>Tc2_DataExchange, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_DataExchange</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_DMX">
+      <DefaultResolution>Tc2_DMX, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_DMX</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_Drive">
+      <DefaultResolution>Tc2_Drive, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_Drive</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_EIB">
+      <DefaultResolution>Tc2_EIB, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_EIB</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_EnOcean">
+      <DefaultResolution>Tc2_EnOcean, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_EnOcean</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_EtherCAT">
+      <DefaultResolution>Tc2_EtherCAT, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_EtherCAT</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_EthernetIP">
+      <DefaultResolution>Tc2_EthernetIP, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_EthernetIP</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_FTP">
+      <DefaultResolution>Tc2_FTP, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_FTP</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_GENIbus">
+      <DefaultResolution>Tc2_GENIbus, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_GENIbus</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_HVAC">
+      <DefaultResolution>Tc2_HVAC, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_HVAC</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_IoFunctions">
+      <DefaultResolution>Tc2_IoFunctions, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_IoFunctions</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_KL85xx">
+      <DefaultResolution>Tc2_KL85xx, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_KL85xx</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_LON">
+      <DefaultResolution>Tc2_LON, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_LON</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_Math">
+      <DefaultResolution>Tc2_Math, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_Math</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_MBus">
+      <DefaultResolution>Tc2_MBus, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_MBus</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_MC2">
+      <DefaultResolution>Tc2_MC2, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_MC2</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_MC2_Camming">
+      <DefaultResolution>Tc2_MC2_Camming, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_MC2_Camming</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_MC2_Drive">
+      <DefaultResolution>Tc2_MC2_Drive, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_MC2_Drive</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_MC2_FlyingSaw">
+      <DefaultResolution>Tc2_MC2_FlyingSaw, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_MC2_FlyingSaw</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_MC2_XFC">
+      <DefaultResolution>Tc2_MC2_XFC, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_MC2_XFC</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_MDP">
+      <DefaultResolution>Tc2_MDP, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_MDP</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_ModbusRTU">
+      <DefaultResolution>Tc2_ModbusRTU, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_ModbusRTU</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_ModbusSrv">
+      <DefaultResolution>Tc2_ModbusSrv, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_ModbusSrv</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_MPBus">
+      <DefaultResolution>Tc2_MPBus, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_MPBus</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_NC">
+      <DefaultResolution>Tc2_NC, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_NC</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_NcDrive">
+      <DefaultResolution>Tc2_NcDrive, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_NcDrive</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_NcFifoAxes">
+      <DefaultResolution>Tc2_NcFifoAxes, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_NcFifoAxes</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_NCI">
+      <DefaultResolution>Tc2_NCI, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_NCI</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_NciXFC">
+      <DefaultResolution>Tc2_NciXFC, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_NciXFC</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_PlcInterpolation">
+      <DefaultResolution>Tc2_PlcInterpolation, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_PlcInterpolation</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_ProfinetDiag">
+      <DefaultResolution>Tc2_ProfinetDiag, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_ProfinetDiag</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_RFID">
+      <DefaultResolution>Tc2_RFID, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_RFID</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_S5S7Com">
+      <DefaultResolution>Tc2_S5S7Com, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_S5S7Com</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_SerialCom">
+      <DefaultResolution>Tc2_SerialCom, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_SerialCom</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_SMI">
+      <DefaultResolution>Tc2_SMI, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_SMI</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_SMS">
+      <DefaultResolution>Tc2_SMS, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_SMS</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_Smtp">
+      <DefaultResolution>Tc2_Smtp, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_Smtp</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_SPA">
+      <DefaultResolution>Tc2_SPA, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_SPA</Namespace>
+    </PlaceholderReference>
     <PlaceholderReference Include="Tc2_Standard">
       <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
       <Namespace>Tc2_Standard</Namespace>
@@ -83,13 +282,19 @@
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
-        <Data>
-          <o xml:space="preserve" t="OptionKey">
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
       <v n="Name">"&lt;ProjectRoot&gt;"</v>
       <d n="SubKeys" t="Hashtable" ckt="String" cvt="OptionKey">
         <v>{192FAD59-8248-4824-A8DE-9177C94C195A}</v>
         <o>
           <v n="Name">"{192FAD59-8248-4824-A8DE-9177C94C195A}"</v>
+          <d n="SubKeys" t="Hashtable" />
+          <d n="Values" t="Hashtable" />
+        </o>
+        <v>{246001F4-279D-43AC-B241-948EB31120E1}</v>
+        <o>
+          <v n="Name">"{246001F4-279D-43AC-B241-948EB31120E1}"</v>
           <d n="SubKeys" t="Hashtable" />
           <d n="Values" t="Hashtable" />
         </o>
@@ -151,14 +356,14 @@
       </d>
       <d n="Values" t="Hashtable" />
     </o>
-        </Data>
-        <TypeList>
-          <Type n="Boolean">System.Boolean</Type>
-          <Type n="Hashtable">System.Collections.Hashtable</Type>
-          <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
-          <Type n="String">System.String</Type>
-        </TypeList>
-      </XmlArchive>
+  </Data>
+  <TypeList>
+    <Type n="Boolean">System.Boolean</Type>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
     </PlcProjectOptions>
   </ProjectExtensions>
 </Project>

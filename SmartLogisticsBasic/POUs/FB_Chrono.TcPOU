@@ -5,14 +5,20 @@
 VAR_INPUT
 END_VAR
 VAR_OUTPUT
+	vqt_LapTime: TIME;						// absolut oder relativ vergangene Zeit
 END_VAR
 VAR
-	vst_ActTime: DATE_AND_TIME;				//aktuelle Zeit
-	vst_LastTime: DATE_AND_TIME;			//zuletzt gespeicherte Zeit
+	vst_ActTime: DATE_AND_TIME;				// aktuelle Zeit
+	vst_LastTime: DATE_AND_TIME;			// zuletzt gespeicherte Zeit
+	fbSysTime: FB_BA_GetTime;				// Systemzeit CPU
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[fbSysTime(bEN := TRUE, dtSysTi => vst_ActTime);
+vqt_LapTime := vst_ActTime - vst_LastTime;
+vst_LastTime := vst_ActTime;
+
+]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>

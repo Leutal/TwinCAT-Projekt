@@ -11,10 +11,15 @@ VAR
     vsFB_ConvBlue : FB_Conveyor;
 	vsFB_CounterR: CTU := (PV:=0);
 	FB_MyUpCounterL: FB_MyUpCounter;
-	Schleife: ARRAY[1..100] OF SINT;
+	vsFB_FiPos: FB_FlPos;
+	vsFB_Chrono: FB_Chrono;
+	vsFB_ConvStatistic: FB_ConvStatistic;
+	ix_LSensorPurpleLast: BOOL;
 END_VAR
 VAR_TEMP
 	vti_CountValueL: INT;
+	vtx_FlPosLap: BOOL;
+	vtt_LapTime: TIME;
 END_VAR
 VAR_STAT
 	vsi_Step: INT;
@@ -221,9 +226,15 @@ GVL_SimitSp.Qb_75 := WORD_TO_BYTE(vsFB_CounterR.CV);
 FB_MyUpCounterL(CU:= GVL_SimitSp.Ix_LSensorPurple AND GVL_SimitSp.Qx_MotorCwPurple, CV=> vti_CountValueL);
 GVL_SimitSp.Qb_74 := INT_TO_BYTE(vti_CountValueL);
 
+vsFB_FiPos(vix_Sig := GVL_SimitSp.Ix_LSensorPurple, vqx_FlPos => vtx_FlPosLap);
+IF vtx_FlPosLap THEN
+	vsFB_Chrono(vqt_LapTime => vtt_LapTime);
+END_IF
 
-	
-]]></ST>
+IF GVL_SimitSp.Ix_LSensorPurple AND NOT ix_LSensorPurpleLast THEN
+	vsFB_ConvStatistic(vit_LapTime := vtt_LapTime);
+END_IF
+ix_LSensorPurpleLast := GVL_SimitSp.Ix_LSensorPurple;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>

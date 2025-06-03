@@ -1,7 +1,18 @@
 <?xml version="1.0"?>
 <TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.16" ClassName="CNestedPlcProjDef">
+	<DataTypes>
+		<DataType>
+			<Name GUID="{12E80FF5-6251-C867-A464-3036E21E986D}" IecBaseType="true" AutoDeleteType="true">ARRAY [0..5] OF BYTE</Name>
+			<BitSize>48</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000001}">BYTE</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>6</Elements>
+			</ArrayInfo>
+		</DataType>
+	</DataTypes>
 	<Project GUID="{7485B67A-ED17-4E3B-B4D4-0DDBFD8E755B}" Name="SmartLogisticsBasic" PrjFilePath="..\..\SmartLogisticsBasic\SmartLogisticsBasic.plcproj" TmcFilePath="..\..\SmartLogisticsBasic\SmartLogisticsBasic.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{FE938A9F-7B05-FDAB-B045-3D0BDC9DB41E}" TmcPath="SmartLogisticsBasic\SmartLogisticsBasic.tmc">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{DFC88C41-4237-6987-8136-A1797AE89A03}" TmcPath="SmartLogisticsBasic\SmartLogisticsBasic.tmc">
 			<Name>SmartLogisticsBasic Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="2" AreaNo="1">
@@ -277,6 +288,14 @@
 					<Name>GVL_SimitSp.Iw_SliderValue</Name>
 					<Comment><![CDATA[ Schieber für variablen Eingabewert]]></Comment>
 					<Type>WORD</Type>
+				</Var>
+				<Var>
+					<Name>.fbBACnet_Adapter._DeviceStatus</Name>
+					<Type>WORD</Type>
+				</Var>
+				<Var>
+					<Name>.fbBACnet_Adapter._AmsNetId</Name>
+					<Type GUID="{12E80FF5-6251-C867-A464-3036E21E986D}">ARRAY [0..5] OF BYTE</Type>
 				</Var>
 			</Vars>
 			<Contexts>

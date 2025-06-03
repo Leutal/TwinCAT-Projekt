@@ -14,8 +14,7 @@ END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[vqx_FlPos := (vix_Sig = TRUE) AND (vsx_LastSig = FALSE);
-vsx_LastSig := vix_Sig;
-]]></ST>
+vsx_LastSig := vix_Sig;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
