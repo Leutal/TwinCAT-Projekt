@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_Chrono" Id="{c9eea430-d6e0-4258-b599-7b19d6a6446e}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Chrono
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+	vst_ActTime: DATE_AND_TIME;				//aktuelle Zeit
+	vst_LastTime: DATE_AND_TIME;			//zuletzt gespeicherte Zeit
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

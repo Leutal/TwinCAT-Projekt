@@ -29,6 +29,9 @@
     <Compile Include="PlcTask.TcTTO">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\FB_Chrono.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\FB_Conveyor.TcPOU">
       <SubType>Code</SubType>
     </Compile>

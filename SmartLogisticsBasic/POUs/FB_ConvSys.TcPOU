@@ -27,7 +27,9 @@ END_VAR
 	END_IF
 
 CASE vsi_Step OF
-
+	
+{region "init"}
+	
 	000: 	//Init-Modus
 		GVL_SimitSp.Qx_MotorAcwPurple	:= FALSE;
 		GVL_SimitSp.Qx_MotorCwPurple	:= FALSE;
@@ -45,6 +47,8 @@ CASE vsi_Step OF
 	
 		vsi_Step:=010;
 	
+{endregion}
+
 	010: //Normalmodus
 		vsFB_ConvPurple.vix_Left	:= GVL_SimitSp.Ix_Left;
 		vsFB_ConvPurple.vix_Right	:= GVL_SimitSp.Ix_Right;
