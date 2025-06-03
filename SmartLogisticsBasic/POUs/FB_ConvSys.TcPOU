@@ -11,6 +11,7 @@ VAR
     vsFB_ConvBlue : FB_Conveyor;
 	vsFB_CounterR: CTU := (PV:=0);
 	FB_MyUpCounterL: FB_MyUpCounter;
+	Schleife: ARRAY[1..100] OF SINT;
 END_VAR
 VAR_TEMP
 	vti_CountValueL: INT;
@@ -26,6 +27,7 @@ END_VAR
 	END_IF
 
 CASE vsi_Step OF
+
 	000: 	//Init-Modus
 		GVL_SimitSp.Qx_MotorAcwPurple	:= FALSE;
 		GVL_SimitSp.Qx_MotorCwPurple	:= FALSE;
@@ -40,9 +42,9 @@ CASE vsi_Step OF
 		GVL_SimitSp.Qx_MotorCwBlue		:= FALSE;
 		GVL_SimitSp.Qx_FullSpeedBlue	:= FALSE;
 		GVL_SimitSp.Qx_LightGreen		:= FALSE;
-		
+	
 		vsi_Step:=010;
-		
+	
 	010: //Normalmodus
 		vsFB_ConvPurple.vix_Left	:= GVL_SimitSp.Ix_Left;
 		vsFB_ConvPurple.vix_Right	:= GVL_SimitSp.Ix_Right;
@@ -55,7 +57,7 @@ CASE vsi_Step OF
 	
 	IF 	GVL_SimitSp.Ix_Enable THEN
 		GVL_SimitSp.Qx_LightGreen := TRUE;
-		
+	
 	vsi_Step := 90;
 	END_IF
 	

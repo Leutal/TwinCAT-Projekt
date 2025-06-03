@@ -1,454 +1,454 @@
 <?xml version="1.0"?>
 <TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.16" ClassName="CNestedPlcProjDef">
-  <Project GUID="{7485B67A-ED17-4E3B-B4D4-0DDBFD8E755B}" Name="SmartLogisticsBasic" PrjFilePath="..\..\SmartLogisticsBasic\SmartLogisticsBasic.plcproj" TmcFilePath="..\..\SmartLogisticsBasic\SmartLogisticsBasic.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-    <Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{99B02870-8CBA-84F3-05F4-758BF544EB53}" TmcPath="SmartLogisticsBasic\SmartLogisticsBasic.tmc">
-      <Name>SmartLogisticsBasic Instance</Name>
-      <CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
-      <Vars VarGrpType="2" AreaNo="1">
-        <Name>PlcTask Outputs</Name>
-        <Var>
-          <Name>GVL_SimitSp.Qx_EnableVarSpeedBlue</Name>
-          <Comment><![CDATA[ Freigabe der variablen Geschwindigkeit Band blau]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_EnableVarSpeedOrange</Name>
-          <Comment><![CDATA[ Freigabe der variablen Geschwindigkeit Band orange]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_EnableVarSpeedPurple</Name>
-          <Comment><![CDATA[ Freigabe der variablen Geschwindigkeit Band lila]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_EnableVarSpeedYellow</Name>
-          <Comment><![CDATA[ Freigabe der variablen Geschwindigkeit Band gelb]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_FullSpeedBlue</Name>
-          <Comment><![CDATA[ Eilgang Band blau]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_FullSpeedOrange</Name>
-          <Comment><![CDATA[ Eilgang Band orange]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_FullSpeedPurple</Name>
-          <Comment><![CDATA[ Eilgang Band lila]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_FullSpeedYellow</Name>
-          <Comment><![CDATA[ Eilgang Band gelb]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_LightBlue</Name>
-          <Comment><![CDATA[ Blaue Lampe]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_LightRed</Name>
-          <Comment><![CDATA[ Rote Lampe]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_LightYellow</Name>
-          <Comment><![CDATA[ Gelbe Lampe]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_LightGreen</Name>
-          <Comment><![CDATA[ Grüne Lampe]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_MotorAcwBlue</Name>
-          <Comment><![CDATA[ Motor dreht nach rechts (Gegenuhrzeigersinn Acw) Band blau]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_MotorAcwOrange</Name>
-          <Comment><![CDATA[ Motor dreht nach rechts (Gegenuhrzeigersinn Acw) Band orange]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_MotorAcwPurple</Name>
-          <Comment><![CDATA[ Motor dreht nach rechts (Gegenuhrzeigersinn Acw) Band lila]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_MotorAcwYellow</Name>
-          <Comment><![CDATA[ Motor dreht nach rechts (Gegenuhrzeigersinn Acw) Band gelb]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_MotorCwBlue</Name>
-          <Comment><![CDATA[ Motor dreht nach links (Uhrzeigersinn Cw) Band blau]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_MotorCwOrange</Name>
-          <Comment><![CDATA[ Motor dreht nach links (Uhrzeigersinn Cw) Band orange]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_MotorCwPurple</Name>
-          <Comment><![CDATA[ Motor dreht nach links (Uhrzeigersinn Cw) Band lila]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_MotorCwYellow</Name>
-          <Comment><![CDATA[ Motor dreht nach links (Uhrzeigersinn Cw) Band gelb]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_StopperLeftBlue</Name>
-          <Comment><![CDATA[ Stopper Blau Links]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_StopperLeftOrange</Name>
-          <Comment><![CDATA[ Stopper Orange Links]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_StopperLeftPurble</Name>
-          <Comment><![CDATA[ Stopper Violette Links]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_StopperLeftYellow</Name>
-          <Comment><![CDATA[ Stopper Gelb Links]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_StopperRightBlue</Name>
-          <Comment><![CDATA[ Stopper Blau Rechts]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_StopperRightOrange</Name>
-          <Comment><![CDATA[ Stopper Orange Rechts]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_StopperRightPurble</Name>
-          <Comment><![CDATA[ Stopper Violette Rechts]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qx_StopperRightYellow</Name>
-          <Comment><![CDATA[ Stopper Gelb Rechts]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qb_74</Name>
-          <Comment><![CDATA[ Anzeige für Ausgabewert Display links]]></Comment>
-          <Type>BYTE</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qw_Display</Name>
-          <Comment><![CDATA[ Anzeige für Ausgabewert]]></Comment>
-          <Type>WORD</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qw_VarSpeedBlue</Name>
-          <Comment><![CDATA[ Variable Geschwindigkeitsvorgabe Band blue]]></Comment>
-          <Type>WORD</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qw_VarSpeedOrange</Name>
-          <Comment><![CDATA[ Variable Geschwindigkeitsvorgabe Band orange]]></Comment>
-          <Type>WORD</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qw_VarSpeedPurple</Name>
-          <Comment><![CDATA[ Variable Geschwindigkeitsvorgabe Band lila]]></Comment>
-          <Type>WORD</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qw_VarSpeedYellow</Name>
-          <Comment><![CDATA[ Variable Geschwindigkeitsvorgabe Band yellow]]></Comment>
-          <Type>WORD</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Qb_75</Name>
-          <Comment><![CDATA[ Anzeige für Ausgabewert Display rechts]]></Comment>
-          <Type>BYTE</Type>
-        </Var>
-        <Var>
-          <Name>GVL_System.bWrite_Enable</Name>
-          <Type>BOOL</Type>
-        </Var>
-      </Vars>
-      <Vars VarGrpType="1">
-        <Name>PlcTask Inputs</Name>
-        <Var>
-          <Name>GVL_SimitSp.Ix_Enable</Name>
-          <Comment><![CDATA[ Taster Freigabe (variable Geschwindigkeit)]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_Left</Name>
-          <Comment><![CDATA[ Taster links]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_LSensorBlue</Name>
-          <Comment><![CDATA[ Linker Näherungssensor Band blau]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_LSensorOrange</Name>
-          <Comment><![CDATA[ Linker Näherungssensor Band orange]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_LSensorPurple</Name>
-          <Comment><![CDATA[ Linker Näherungssensor Band lila]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_LSensorYellow</Name>
-          <Comment><![CDATA[ Linker Näherungssensor Band gelb]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_ManAuto</Name>
-          <Comment><![CDATA[ Schalter manueller oder automatischer Betrieb (0=manuell)]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_NotAus</Name>
-          <Comment><![CDATA[ NotAus Schalter]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_Off</Name>
-          <Comment><![CDATA[ Taster Aus]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_On</Name>
-          <Comment><![CDATA[ Taster Ein]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_PowerOn</Name>
-          <Comment><![CDATA[ Hauptschalter]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_Reset</Name>
-          <Comment><![CDATA[ Taster Reset]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_Right</Name>
-          <Comment><![CDATA[ Taster rechts]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_RSensorBlue</Name>
-          <Comment><![CDATA[ Rechter Näherungssensor Band blau]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_RSensorOrange</Name>
-          <Comment><![CDATA[ Rechter Näherungssensor Band orange]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_RSensorPurple</Name>
-          <Comment><![CDATA[ Rechter Näherungssensor Band lila]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Ix_RSensorYellow</Name>
-          <Comment><![CDATA[ Rechter Näherungssensor Band gelb]]></Comment>
-          <Type>BOOL</Type>
-        </Var>
-        <Var>
-          <Name>GVL_SimitSp.Iw_SliderValue</Name>
-          <Comment><![CDATA[ Schieber für variablen Eingabewert]]></Comment>
-          <Type>WORD</Type>
-        </Var>
-      </Vars>
-      <Contexts>
-        <Context>
-          <Id>0</Id>
-          <Name>PlcTask</Name>
-          <ManualConfig>
-            <OTCID>#x02010030</OTCID>
-          </ManualConfig>
-          <Priority>20</Priority>
-          <CycleTime>10000000</CycleTime>
-        </Context>
-      </Contexts>
-      <TaskPouOids>
-        <TaskPouOid Prio="20" OTCID="#x08502001" />
-      </TaskPouOids>
-    </Instance>
-  </Project>
-  <Mappings>
-    <OwnerA Name="SmartLogisticsBasic Instance">
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService">
-        <Link VarA="PlcTask Outputs^GVL_System.bWrite_Enable" VarB="Outputs^Control^Write Enable" AutoLink="true" Size="1" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Enable">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Enable" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_LSensorBlue">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_LSensorBlue" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_LSensorOrange">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_LSensorOrange" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_LSensorPurple">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_LSensorPurple" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_LSensorYellow">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_LSensorYellow" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Left">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Left" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_ManAuto">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_ManAuto" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_NotAus">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_NotAus" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Off">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Off" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_On">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_On" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_PowerOn">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_PowerOn" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_RSensorBlue">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_RSensorBlue" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_RSensorOrange">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_RSensorOrange" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_RSensorPurple">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_RSensorPurple" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_RSensorYellow">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_RSensorYellow" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Reset">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Reset" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Right">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Right" VarB="Inputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcInt^Iw_SliderValue">
-        <Link VarA="PlcTask Inputs^GVL_SimitSp.Iw_SliderValue" VarB="Inputs^Value" AutoLink="true" Size="16" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_EnableVarSpeedBlue">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_EnableVarSpeedBlue" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_EnableVarSpeedOrange">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_EnableVarSpeedOrange" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_EnableVarSpeedPurple">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_EnableVarSpeedPurple" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_EnableVarSpeedYellow">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_EnableVarSpeedYellow" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_FullSpeedBlue">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_FullSpeedBlue" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_FullSpeedOrange">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_FullSpeedOrange" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_FullSpeedPurple">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_FullSpeedPurple" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_FullSpeedYellow">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_FullSpeedYellow" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorAcwBlue">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorAcwBlue" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorAcwOrange">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorAcwOrange" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorAcwPurple">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorAcwPurple" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorAcwYellow">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorAcwYellow" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorCwBlue">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorCwBlue" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorCwOrange">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorCwOrange" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorCwPurple">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorCwPurple" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorCwYellow">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorCwYellow" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperLeftBlue">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperLeftBlue" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperLeftOrange">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperLeftOrange" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperLeftPurble">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperLeftPurble" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperLeftYellow">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperLeftYellow" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperRightBlue">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperRightBlue" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperRightOrange">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperRightOrange" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperRightPurble">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperRightPurble" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperRightYellow">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperRightYellow" VarB="Outputs^Value" AutoLink="true" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^Qw_VarSpeedBlue">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_VarSpeedBlue" VarB="Outputs^Value" AutoLink="true" Size="16" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^Qw_VarSpeedOrange">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_VarSpeedOrange" VarB="Outputs^Value" AutoLink="true" Size="16" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^Qw_VarSpeedPurple">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_VarSpeedPurple" VarB="Outputs^Value" AutoLink="true" Size="16" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^Qw_VarSpeedYellow">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_VarSpeedYellow" VarB="Outputs^Value" AutoLink="true" Size="16" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^nDisplays">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qb_74" VarB="Outputs^Value" AutoLink="true" Size="8" OffsB="16" />
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qb_75" VarB="Outputs^Value" AutoLink="true" Size="8" OffsB="24" />
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_Display" VarB="Outputs^Value" AutoLink="true" Size="16" />
-      </OwnerB>
-      <OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^nLights">
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_LightBlue" VarB="Outputs^Value" AutoLink="true" Size="1" OffsB="3" />
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_LightGreen" VarB="Outputs^Value" AutoLink="true" Size="1" />
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_LightRed" VarB="Outputs^Value" AutoLink="true" Size="1" OffsB="2" />
-        <Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_LightYellow" VarB="Outputs^Value" AutoLink="true" Size="1" OffsB="1" />
-      </OwnerB>
-    </OwnerA>
-  </Mappings>
+	<Project GUID="{7485B67A-ED17-4E3B-B4D4-0DDBFD8E755B}" Name="SmartLogisticsBasic" PrjFilePath="..\..\SmartLogisticsBasic\SmartLogisticsBasic.plcproj" TmcFilePath="..\..\SmartLogisticsBasic\SmartLogisticsBasic.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{83AD1237-7B51-9F8A-A256-04A89E80B0B1}" TmcPath="SmartLogisticsBasic\SmartLogisticsBasic.tmc">
+			<Name>SmartLogisticsBasic Instance</Name>
+			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+			<Vars VarGrpType="2" AreaNo="1">
+				<Name>PlcTask Outputs</Name>
+				<Var>
+					<Name>GVL_SimitSp.Qx_EnableVarSpeedBlue</Name>
+					<Comment><![CDATA[ Freigabe der variablen Geschwindigkeit Band blau]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_EnableVarSpeedOrange</Name>
+					<Comment><![CDATA[ Freigabe der variablen Geschwindigkeit Band orange]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_EnableVarSpeedPurple</Name>
+					<Comment><![CDATA[ Freigabe der variablen Geschwindigkeit Band lila]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_EnableVarSpeedYellow</Name>
+					<Comment><![CDATA[ Freigabe der variablen Geschwindigkeit Band gelb]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_FullSpeedBlue</Name>
+					<Comment><![CDATA[ Eilgang Band blau]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_FullSpeedOrange</Name>
+					<Comment><![CDATA[ Eilgang Band orange]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_FullSpeedPurple</Name>
+					<Comment><![CDATA[ Eilgang Band lila]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_FullSpeedYellow</Name>
+					<Comment><![CDATA[ Eilgang Band gelb]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_LightBlue</Name>
+					<Comment><![CDATA[ Blaue Lampe]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_LightRed</Name>
+					<Comment><![CDATA[ Rote Lampe]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_LightYellow</Name>
+					<Comment><![CDATA[ Gelbe Lampe]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_LightGreen</Name>
+					<Comment><![CDATA[ Grüne Lampe]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_MotorAcwBlue</Name>
+					<Comment><![CDATA[ Motor dreht nach rechts (Gegenuhrzeigersinn Acw) Band blau]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_MotorAcwOrange</Name>
+					<Comment><![CDATA[ Motor dreht nach rechts (Gegenuhrzeigersinn Acw) Band orange]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_MotorAcwPurple</Name>
+					<Comment><![CDATA[ Motor dreht nach rechts (Gegenuhrzeigersinn Acw) Band lila]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_MotorAcwYellow</Name>
+					<Comment><![CDATA[ Motor dreht nach rechts (Gegenuhrzeigersinn Acw) Band gelb]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_MotorCwBlue</Name>
+					<Comment><![CDATA[ Motor dreht nach links (Uhrzeigersinn Cw) Band blau]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_MotorCwOrange</Name>
+					<Comment><![CDATA[ Motor dreht nach links (Uhrzeigersinn Cw) Band orange]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_MotorCwPurple</Name>
+					<Comment><![CDATA[ Motor dreht nach links (Uhrzeigersinn Cw) Band lila]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_MotorCwYellow</Name>
+					<Comment><![CDATA[ Motor dreht nach links (Uhrzeigersinn Cw) Band gelb]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_StopperLeftBlue</Name>
+					<Comment><![CDATA[ Stopper Blau Links]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_StopperLeftOrange</Name>
+					<Comment><![CDATA[ Stopper Orange Links]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_StopperLeftPurble</Name>
+					<Comment><![CDATA[ Stopper Violette Links]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_StopperLeftYellow</Name>
+					<Comment><![CDATA[ Stopper Gelb Links]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_StopperRightBlue</Name>
+					<Comment><![CDATA[ Stopper Blau Rechts]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_StopperRightOrange</Name>
+					<Comment><![CDATA[ Stopper Orange Rechts]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_StopperRightPurble</Name>
+					<Comment><![CDATA[ Stopper Violette Rechts]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qx_StopperRightYellow</Name>
+					<Comment><![CDATA[ Stopper Gelb Rechts]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qb_74</Name>
+					<Comment><![CDATA[ Anzeige für Ausgabewert Display links]]></Comment>
+					<Type>BYTE</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qw_Display</Name>
+					<Comment><![CDATA[ Anzeige für Ausgabewert]]></Comment>
+					<Type>WORD</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qw_VarSpeedBlue</Name>
+					<Comment><![CDATA[ Variable Geschwindigkeitsvorgabe Band blue]]></Comment>
+					<Type>WORD</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qw_VarSpeedOrange</Name>
+					<Comment><![CDATA[ Variable Geschwindigkeitsvorgabe Band orange]]></Comment>
+					<Type>WORD</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qw_VarSpeedPurple</Name>
+					<Comment><![CDATA[ Variable Geschwindigkeitsvorgabe Band lila]]></Comment>
+					<Type>WORD</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qw_VarSpeedYellow</Name>
+					<Comment><![CDATA[ Variable Geschwindigkeitsvorgabe Band yellow]]></Comment>
+					<Type>WORD</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Qb_75</Name>
+					<Comment><![CDATA[ Anzeige für Ausgabewert Display rechts]]></Comment>
+					<Type>BYTE</Type>
+				</Var>
+				<Var>
+					<Name>GVL_System.bWrite_Enable</Name>
+					<Type>BOOL</Type>
+				</Var>
+			</Vars>
+			<Vars VarGrpType="1">
+				<Name>PlcTask Inputs</Name>
+				<Var>
+					<Name>GVL_SimitSp.Ix_Enable</Name>
+					<Comment><![CDATA[ Taster Freigabe (variable Geschwindigkeit)]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_Left</Name>
+					<Comment><![CDATA[ Taster links]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_LSensorBlue</Name>
+					<Comment><![CDATA[ Linker Näherungssensor Band blau]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_LSensorOrange</Name>
+					<Comment><![CDATA[ Linker Näherungssensor Band orange]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_LSensorPurple</Name>
+					<Comment><![CDATA[ Linker Näherungssensor Band lila]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_LSensorYellow</Name>
+					<Comment><![CDATA[ Linker Näherungssensor Band gelb]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_ManAuto</Name>
+					<Comment><![CDATA[ Schalter manueller oder automatischer Betrieb (0=manuell)]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_NotAus</Name>
+					<Comment><![CDATA[ NotAus Schalter]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_Off</Name>
+					<Comment><![CDATA[ Taster Aus]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_On</Name>
+					<Comment><![CDATA[ Taster Ein]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_PowerOn</Name>
+					<Comment><![CDATA[ Hauptschalter]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_Reset</Name>
+					<Comment><![CDATA[ Taster Reset]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_Right</Name>
+					<Comment><![CDATA[ Taster rechts]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_RSensorBlue</Name>
+					<Comment><![CDATA[ Rechter Näherungssensor Band blau]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_RSensorOrange</Name>
+					<Comment><![CDATA[ Rechter Näherungssensor Band orange]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_RSensorPurple</Name>
+					<Comment><![CDATA[ Rechter Näherungssensor Band lila]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Ix_RSensorYellow</Name>
+					<Comment><![CDATA[ Rechter Näherungssensor Band gelb]]></Comment>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_SimitSp.Iw_SliderValue</Name>
+					<Comment><![CDATA[ Schieber für variablen Eingabewert]]></Comment>
+					<Type>WORD</Type>
+				</Var>
+			</Vars>
+			<Contexts>
+				<Context>
+					<Id>0</Id>
+					<Name>PlcTask</Name>
+					<ManualConfig>
+						<OTCID>#x02010030</OTCID>
+					</ManualConfig>
+					<Priority>20</Priority>
+					<CycleTime>10000000</CycleTime>
+				</Context>
+			</Contexts>
+			<TaskPouOids>
+				<TaskPouOid Prio="20" OTCID="#x08502001"/>
+			</TaskPouOids>
+		</Instance>
+	</Project>
+	<Mappings>
+		<OwnerA Name="SmartLogisticsBasic Instance">
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService">
+				<Link VarA="PlcTask Outputs^GVL_System.bWrite_Enable" VarB="Outputs^Control^Write Enable" AutoLink="true" Size="1"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Enable">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Enable" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_LSensorBlue">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_LSensorBlue" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_LSensorOrange">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_LSensorOrange" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_LSensorPurple">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_LSensorPurple" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_LSensorYellow">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_LSensorYellow" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Left">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Left" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_ManAuto">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_ManAuto" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_NotAus">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_NotAus" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Off">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Off" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_On">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_On" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_PowerOn">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_PowerOn" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_RSensorBlue">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_RSensorBlue" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_RSensorOrange">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_RSensorOrange" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_RSensorPurple">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_RSensorPurple" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_RSensorYellow">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_RSensorYellow" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Reset">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Reset" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcBin^Ix_Right">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Ix_Right" VarB="Inputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^InSimitOpcInt^Iw_SliderValue">
+				<Link VarA="PlcTask Inputs^GVL_SimitSp.Iw_SliderValue" VarB="Inputs^Value" AutoLink="true" Size="16"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_EnableVarSpeedBlue">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_EnableVarSpeedBlue" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_EnableVarSpeedOrange">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_EnableVarSpeedOrange" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_EnableVarSpeedPurple">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_EnableVarSpeedPurple" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_EnableVarSpeedYellow">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_EnableVarSpeedYellow" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_FullSpeedBlue">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_FullSpeedBlue" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_FullSpeedOrange">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_FullSpeedOrange" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_FullSpeedPurple">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_FullSpeedPurple" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_FullSpeedYellow">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_FullSpeedYellow" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorAcwBlue">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorAcwBlue" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorAcwOrange">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorAcwOrange" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorAcwPurple">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorAcwPurple" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorAcwYellow">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorAcwYellow" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorCwBlue">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorCwBlue" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorCwOrange">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorCwOrange" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorCwPurple">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorCwPurple" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_MotorCwYellow">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_MotorCwYellow" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperLeftBlue">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperLeftBlue" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperLeftOrange">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperLeftOrange" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperLeftPurble">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperLeftPurble" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperLeftYellow">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperLeftYellow" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperRightBlue">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperRightBlue" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperRightOrange">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperRightOrange" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperRightPurble">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperRightPurble" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcBin^Qx_StopperRightYellow">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_StopperRightYellow" VarB="Outputs^Value" AutoLink="true"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^Qw_VarSpeedBlue">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_VarSpeedBlue" VarB="Outputs^Value" AutoLink="true" Size="16"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^Qw_VarSpeedOrange">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_VarSpeedOrange" VarB="Outputs^Value" AutoLink="true" Size="16"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^Qw_VarSpeedPurple">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_VarSpeedPurple" VarB="Outputs^Value" AutoLink="true" Size="16"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^Qw_VarSpeedYellow">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_VarSpeedYellow" VarB="Outputs^Value" AutoLink="true" Size="16"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^nDisplays">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qb_74" VarB="Outputs^Value" AutoLink="true" Size="8" OffsB="16"/>
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qb_75" VarB="Outputs^Value" AutoLink="true" Size="8" OffsB="24"/>
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qw_Display" VarB="Outputs^Value" AutoLink="true" Size="16"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (OPC UA Virtual)^Siemens.Simit.OpcUaServer.OpcUaServerService^urn:vmw11:Siemens:Simit.OpcUaServer.OPC UA Server^OutSimitOpcInt^nLights">
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_LightBlue" VarB="Outputs^Value" AutoLink="true" Size="1" OffsB="3"/>
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_LightGreen" VarB="Outputs^Value" AutoLink="true" Size="1"/>
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_LightRed" VarB="Outputs^Value" AutoLink="true" Size="1" OffsB="2"/>
+				<Link VarA="PlcTask Outputs^GVL_SimitSp.Qx_LightYellow" VarB="Outputs^Value" AutoLink="true" Size="1" OffsB="1"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
 </TcSmItem>

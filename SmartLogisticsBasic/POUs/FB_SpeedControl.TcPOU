@@ -39,17 +39,5 @@ IF (viw_Speed <> vsw_LastSpeed) THEN
 	vsw_LastSpeed := viw_Speed; (*aktuelle Speed abspeichern für nächsten Zyklus*)
 END_IF;]]></ST>
     </Implementation>
-    <LineIds Name="FB_SpeedControl">
-      <LineId Id="19" Count="0" />
-      <LineId Id="3" Count="2" />
-      <LineId Id="16" Count="0" />
-      <LineId Id="8" Count="0" />
-      <LineId Id="12" Count="0" />
-      <LineId Id="17" Count="0" />
-      <LineId Id="13" Count="1" />
-      <LineId Id="9" Count="0" />
-      <LineId Id="18" Count="0" />
-      <LineId Id="10" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
