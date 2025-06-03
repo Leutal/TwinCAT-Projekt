@@ -58,10 +58,6 @@
     <Folder Include="POUs" />
   </ItemGroup>
   <ItemGroup>
-    <PlaceholderReference Include="SCALE_FB">
-      <DefaultResolution>SCALE_FB, * (Samuel)</DefaultResolution>
-      <Namespace>SCALE_FB</Namespace>
-    </PlaceholderReference>
     <PlaceholderReference Include="Tc2_Standard">
       <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
       <Namespace>Tc2_Standard</Namespace>
