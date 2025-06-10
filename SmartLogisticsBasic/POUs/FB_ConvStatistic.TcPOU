@@ -9,9 +9,10 @@ VAR_OUTPUT
 END_VAR
 VAR
 	vsi_InPos: INT := 1;					// Zuweisung in welchem Arraybereich die nächste Zeit gespeichert werden soll
+	vtt_MaxTime: Time;
 END_VAR
 VAR_STAT
-	vsat_Laps: ARRAY[1..10] OF TIME;		// Deklaration von 10 Speicherplätzen
+	vsat_Laps: ARRAY[0..10] OF TIME;		// Deklaration von 10 Speicherplätzen
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -20,7 +21,9 @@ IF vsi_InPos >= 10 THEN						//falls Array voll, ältester Eintrag überschreibe
 	vsi_InPos := 1;							//
 ELSE
 	vsi_InPos := vsi_InPos +1;				// ansonsten Array 1 hochzählen
-END_IF]]></ST>
+END_IF
+
+vtt_MaxTime := FC_GetMaxLapTime(viqat_Laps := vsat_Laps);]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>

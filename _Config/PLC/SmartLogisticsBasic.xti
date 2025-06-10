@@ -12,7 +12,7 @@
 		</DataType>
 	</DataTypes>
 	<Project GUID="{7485B67A-ED17-4E3B-B4D4-0DDBFD8E755B}" Name="SmartLogisticsBasic" PrjFilePath="..\..\SmartLogisticsBasic\SmartLogisticsBasic.plcproj" TmcFilePath="..\..\SmartLogisticsBasic\SmartLogisticsBasic.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{DFC88C41-4237-6987-8136-A1797AE89A03}" TmcPath="SmartLogisticsBasic\SmartLogisticsBasic.tmc">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{3C5A5215-E427-C2B3-7DC0-0FFDFB318262}" TmcPath="SmartLogisticsBasic\SmartLogisticsBasic.tmc">
 			<Name>SmartLogisticsBasic Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="2" AreaNo="1">
@@ -158,11 +158,6 @@
 					<Type>BOOL</Type>
 				</Var>
 				<Var>
-					<Name>GVL_SimitSp.Qb_74</Name>
-					<Comment><![CDATA[ Anzeige für Ausgabewert Display links]]></Comment>
-					<Type>BYTE</Type>
-				</Var>
-				<Var>
 					<Name>GVL_SimitSp.Qw_Display</Name>
 					<Comment><![CDATA[ Anzeige für Ausgabewert]]></Comment>
 					<Type>WORD</Type>
@@ -188,6 +183,11 @@
 					<Type>WORD</Type>
 				</Var>
 				<Var>
+					<Name>GVL_SimitSp.Qb_74</Name>
+					<Comment><![CDATA[ Anzeige für Ausgabewert Display links]]></Comment>
+					<Type>BYTE</Type>
+				</Var>
+				<Var>
 					<Name>GVL_SimitSp.Qb_75</Name>
 					<Comment><![CDATA[ Anzeige für Ausgabewert Display rechts]]></Comment>
 					<Type>BYTE</Type>
@@ -199,6 +199,14 @@
 			</Vars>
 			<Vars VarGrpType="1">
 				<Name>PlcTask Inputs</Name>
+				<Var>
+					<Name>.fbBACnet_Adapter._DeviceStatus</Name>
+					<Type>WORD</Type>
+				</Var>
+				<Var>
+					<Name>.fbBACnet_Adapter._AmsNetId</Name>
+					<Type GUID="{12E80FF5-6251-C867-A464-3036E21E986D}">ARRAY [0..5] OF BYTE</Type>
+				</Var>
 				<Var>
 					<Name>GVL_SimitSp.Ix_Enable</Name>
 					<Comment><![CDATA[ Taster Freigabe (variable Geschwindigkeit)]]></Comment>
@@ -288,14 +296,6 @@
 					<Name>GVL_SimitSp.Iw_SliderValue</Name>
 					<Comment><![CDATA[ Schieber für variablen Eingabewert]]></Comment>
 					<Type>WORD</Type>
-				</Var>
-				<Var>
-					<Name>.fbBACnet_Adapter._DeviceStatus</Name>
-					<Type>WORD</Type>
-				</Var>
-				<Var>
-					<Name>.fbBACnet_Adapter._AmsNetId</Name>
-					<Type GUID="{12E80FF5-6251-C867-A464-3036E21E986D}">ARRAY [0..5] OF BYTE</Type>
 				</Var>
 			</Vars>
 			<Contexts>
